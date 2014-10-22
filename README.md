@@ -14,25 +14,26 @@ The code runs as a Macro on MS Excel versions.
 
 Lets say we have an excel that looks like the one below.
 
----------------
-A     |    B   
----------------
-SFO   |   JAX
-LAX   |   IAH
-JFK   |   ALB
-EWR   |   SFO
-IAH   |   JFK
-ALB   |
-JAX   |
-MCI   |
+A        |   B
+-------- | -------
+SFO      |   JAX
+LAX      |   IAH
+JFK      |   ALB
+EWR      |   SFO
+IAH      |   JFK
+ALB      |
+JAX      |
+MCI      |
+
+
 
 Looking at the list, we know that both have same values, but we do not want to spend time unecessarily reading every cell, line by line.
 
 The code prints the results as below
 
-----------------------
+
 A     |    B    |  C 
-----------------------
+----- |  ------ | ------
 SFO   |   JAX   | LAX
 LAX   |   IAH   | EWR
 JFK   |   ALB   | MCI
@@ -41,6 +42,8 @@ IAH   |   JFK   |
 ALB   |         |
 JAX   |         |
 MCI   |         |
+
+
 
 
 >###NOTE:
