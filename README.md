@@ -48,3 +48,4 @@ MCI   |         |
 
 >###NOTE:
 >The macro given should be run in the **Visual Basic editor** that comes with MS Excel. It can be found in  **Tools -> Macro --> > Visual Basic Editor** 
+>The code is found in Test.txt and can be copied into the Visual Basic Text editor
