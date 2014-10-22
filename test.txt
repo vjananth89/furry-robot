@@ -1,0 +1,14 @@
+
+
+Sub Test()
+Dim c As Range, d As Range, LR As Long
+LR = Range("A" & Rows.Count).End(xlUp).Row
+
+For Each c In Range("A1:A" & LR)
+    If Not WorksheetFunction.CountIf(Range("B1:B" & LR), c.Value) >= 1 Then
+        i = i + 1
+        Range("C" & i).Value = c.Value
+    End If
+Next c
+
+End Sub
